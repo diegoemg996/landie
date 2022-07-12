@@ -136,7 +136,9 @@ ul li{
 .description-container{
     display: flex;
     align-items: center;
-    padding: 4rem 0;
+    padding: 2rem 0;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .description-text-container{
@@ -147,6 +149,12 @@ ul li{
 .description-img-container{
     width: 50%;
 }
+
+.description-img-container img{
+    width: 480px;
+}
+
+
 
 .description-icons-container{
     width: 100%;
@@ -262,7 +270,7 @@ ul li{
     }
 
     .description-img-container img {
-        width: 400px;
+        width: 100%;
     }
 
     .description-text-container{
@@ -303,5 +311,28 @@ ul li{
       width: 100%;
       margin-top: 1rem;
     }
+
+}
+
+@media only screen and (max-width: 1075px) {
+
+    .description-text-container{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .description-img-container{
+        width: 100%;
+    }
+
+    .hero p{
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .hero {
+        padding: 4rem 0;
+    }
+
 
 }
